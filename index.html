@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+  <div id="all">
+    <head>
+      <title id="title">Web Technology Coursework</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="cipher.js"></script>
+      <meta charset = "UTF-8" />
+    </head>
+    <body>
+      <h1 id="mainHead" align="center">Marc's Cipher Site</h1>
+      <form>
+
+        <div id="label1" style="margin-left:5px"><label>Input</label></div>
+        <div id="label2" style="margin-left:305px"><label>Output</label></div>
+        <p>	
+          <textarea rows="7" cols="40" name="input" id="inputtext">Enter plaintext...</textarea>
+          <textarea rows="7" cols="40" name="output" id="outputtext">Ciphertext from here...</textarea>
+        </p>
+        <select id = "cipher_list" onchange="changeKeyBox()">
+          <option value = "None">Select Cipher</option>
+          <option value = "Ceasar">Ceasar</option>
+          <option value = "Vigenere">Vigenere</option>
+          <option value = "ROT13">ROT13</option>
+          <option value = "Morse">Morse</option>
+          <option value = "ASCII_shift">ASCII Shift</option>
+        </select>
+        <button type="button" onclick="main()" id="run_btn">Run</button>
+        <button type="button" onclick="copyToClipboard()" id="copy_btn">Copy to clipboard</button>
+        <textarea rows="1" cols="19" name="key" id="key_input">Key Input</textarea>
+        <button type="button" onclick="encodeDecodeToggle()" id="toggle_btn">Encode / Decode toggle</button>
+        <div id="toggleOutput">Encoding</div>
+        <div id="aboutCipher">Learn more</div>
+        <div id="aboutCipherBox"></div>
+    
+      </form>
+    </body>
+  </div>
+</html>

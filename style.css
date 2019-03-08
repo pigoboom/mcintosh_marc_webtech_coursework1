@@ -1,0 +1,119 @@
+#all
+{
+  zoom: 125%;
+}
+
+body {
+  background-color: lightblue;
+}
+
+#mainHead
+{
+  font-family: "Calibri Light";
+
+}
+
+#title
+{
+  position: fixed;
+  left: 100px;
+}
+
+#label1
+{
+  position: fixed;
+  left: 100px;
+  font-family: "Calibri Light";
+}
+
+#label2
+{
+  position: fixed;
+  left: 200px;
+  font-family: "Calibri Light";
+}
+
+#inputtext
+{
+  position: fixed;
+  top: 125px;
+  left: 100px;
+}
+#cipher_list
+{
+  width: 120px;
+  height: 30px;
+  position: fixed;
+  top: 275px;
+  left: 100px;
+}
+
+#outputtext
+{
+  position: fixed;
+  top: 125px;
+  left: 500px;
+}
+
+#key_input
+{
+  position: fixed;
+  top: 275px;
+  left: 230px;
+  width: 165px;
+  height: 25px;
+  font-size: 12px;
+}
+
+#toggle_btn
+{
+  position: fixed;
+  top: 320px;
+  width: 170px;
+  height: 30px;
+  left: 230px;
+
+}
+
+#toggleOutput
+{
+  position: fixed;
+  top: 325px;
+  left: 120px;
+  font-family: "Calibri Light";
+}
+
+#run_btn
+{
+  position: fixed;
+  top: 365px;
+  width: 300px;
+  height: 50px;
+  left: 100px;
+}
+
+#copy_btn
+{
+  position: fixed;
+  top: 275px;
+  left: 707px;
+  height: 30px;
+
+}
+
+#aboutCipher
+{
+  position: fixed;
+  top: 275px;
+  left: 520px;
+  font-family: "Calibri Light";
+
+}
+
+#aboutCipherBox
+{
+  position: fixed;
+  top: 320px;
+  left: 500px;
+  font-family: "Calibri Light";
+}
